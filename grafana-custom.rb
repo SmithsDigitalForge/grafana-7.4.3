@@ -1,4 +1,4 @@
-class Grafana < Formula
+class GrafanaCustom < Formula
   desc "Gorgeous metric visualizations and dashboards for timeseries databases"
   homepage "https://grafana.com"
   url "https://github.com/grafana/grafana/archive/v7.4.3.tar.gz"
