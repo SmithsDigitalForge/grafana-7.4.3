@@ -13,7 +13,7 @@ class Grafana < Formula
     sha256 cellar: :any_skip_relocation, mojave:        "4e4721fa1eefcdb4f38d7dd7f2e2aa3a9c877bdc0950c7a48493b4ca6dd5f231"
   end
 
-  depends_on "go" => :build
+  depends_on "go@1.17" => :build
   depends_on "node" => :build
   depends_on "yarn" => :build
 
